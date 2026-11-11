@@ -1,0 +1,33 @@
+{
+  "name": "import-export",
+  "version": "1.0.0",
+  "description": "Домашнее задание к лекции «Модули»",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evgenyi1984/import-export.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+    "bugs": {
+    "url": "https://github.com/Evgenyi1984/import-export/issues"
+  },
+  "homepage": "https://github.com/Evgenyi1984/import-export#readme",
+  "devDependencies": {
+    "@babel/core": "^8.1.2",
+    "@babel/preset-env": "^8.0.7",
+    "babel-loader": "^10.1.1",
+    "css-loader": "^7.1.5",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.8",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.112.2",
+    "webpack-cli": "^7.3.1",
+    "webpack-dev-server": "^6.1.0"
+  }
+}
